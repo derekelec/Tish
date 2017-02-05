@@ -1,0 +1,31 @@
+{
+  "name": "tish",
+  "version": "1.0.0",
+  "description": "text based messenger puzzle game",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekelec/Tish.git"
+  },
+  "keywords": [
+    "tish",
+    "text",
+    "puzzle"
+  ],
+  "author": "Derek Mathewson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derekelec/Tish/issues"
+  },
+  "homepage": "https://github.com/derekelec/Tish#readme",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.8.1",
+    "nodemon": "^1.11.0"
+  }
+}
